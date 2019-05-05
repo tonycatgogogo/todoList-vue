@@ -20,7 +20,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebPackPlugin({
-      template: path.join(__dirname, './src/index.html'),
+      template: path.join(__dirname, './index.html'),
       filename: "./index.html"
     })
   ]
